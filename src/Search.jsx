@@ -28,7 +28,6 @@ export default function Search() {
       setWeatherData(null);
     }
   };
-
   const handleChange = (e) => {
     setCity(e.target.value);
   };
@@ -55,11 +54,8 @@ export default function Search() {
         <br /><br />
         <Button variant="contained" type="submit">Search</Button>
       </form>
-
       <br />
-
       {error && <p style={{ color: "red" }}>{error}</p>}
-
       {weatherData && (
         <div style={{ marginTop: "20px", border: "1px solid #ccc", padding: "15px", borderRadius: "8px" }}>
           <h3>Weather in {weatherData.name}, {weatherData.sys.country}</h3>
