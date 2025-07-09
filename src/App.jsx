@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 import Search from './Search'
-
+import './WeatherApp.css'
 
 function App() {   
-  const [count, setCount] = useState(0)
+
 
   return (
      <>
