@@ -1,19 +1,12 @@
-import { useState } from 'react'
-// import './App.css'
-import Search from './Search'
-import './WeatherApp.css'
+import React, { Fragment } from "react";
+import Search from "./Search";
 
-function App() {   
-
-
+function App() {
   return (
-     <>
-
-    <Search/>
-      
-      
+    <>
+      <Search />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

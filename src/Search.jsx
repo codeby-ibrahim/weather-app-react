@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-// import './WeatherApp.css';
+import './Weatherapp.css';  
+
 import {
   TextField,
   Button,
-  Card,
+  Card, 
   CardActions,
   CardContent,
   CardMedia,
@@ -48,6 +49,8 @@ export default function Search() {
   };
 
   return (
+    <>
+    <div className="box">
     <Container maxWidth="sm" className="container">
       {/* Ad Banner */}
       <Paper elevation={3} className="ad-banner">
@@ -107,5 +110,7 @@ export default function Search() {
         </Card>
       )}
     </Container>
+    </div>
+    </>
   );
 }
